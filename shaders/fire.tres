@@ -1,0 +1,20 @@
+[gd_resource type="ShaderMaterial" load_steps=2 format=3 uid="uid://ddopptqc2l2ae"]
+
+[ext_resource type="Shader" path="res://shaders/fire.gdshader" id="1_phdch"]
+
+[resource]
+render_priority = 0
+shader = ExtResource("1_phdch")
+shader_parameter/detail_strength = 3.0
+shader_parameter/scroll_speed = 1.2
+shader_parameter/fire_height = 1.0
+shader_parameter/fire_shape = 1.5
+shader_parameter/fire_thickness = 0.55
+shader_parameter/fire_sharpness = 1.0
+shader_parameter/intensity = 1.0
+shader_parameter/noise_octaves = 6
+shader_parameter/noise_lacunarity = 3.0
+shader_parameter/noise_gain = 0.5
+shader_parameter/noise_amplitude = 1.0
+shader_parameter/noise_frequency = 1.5
+shader_parameter/pixelization = 0
